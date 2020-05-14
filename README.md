@@ -1,4 +1,4 @@
-# Marauder Sample App: Gista
+# Marauder Sample App: Gists
 
 This is a sample app using [Marauder](https://github.com/donavon/marauder).
 
