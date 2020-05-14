@@ -9,11 +9,8 @@ const config = {
   staleTime: 1000 * 60 * 5,
 };
 
-// what does this do?
-const loadContext = { user: 'Ryan Florence' };
-
 ReactDOM.render(
-  <MarauderProvider config={config} loadContext={loadContext}>
+  <MarauderProvider config={config}>
     <App />
   </MarauderProvider>,
   document.getElementById('root')
